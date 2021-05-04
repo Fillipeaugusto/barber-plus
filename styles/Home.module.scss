@@ -1,0 +1,176 @@
+.cardImg{
+    width: 100%;
+    height: 540px;
+    display: flex;
+    align-items: center;    
+    background-image: url(/img/barber-man.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    
+    
+}
+
+
+.main{
+
+    span{
+        color: #100BFA;
+    }
+
+    
+
+    .textContainer{
+        margin-top: 6rem;
+        width:100%;
+        display: flex;
+        justify-content: space-between;
+     
+        
+        .text{
+
+            margin-left: 2rem;
+            margin-right: 2rem;
+            margin-top: 7rem;
+            width: 36rem;
+            
+            h1{
+                color: #000000;
+                text-align: center;
+                font-family:  Rubik;
+                font-weight: 500;
+            }
+    
+           
+            
+            .conditions{
+                width:40px;
+                height:10px;
+                display: inline;
+               
+                span{
+                    color: #000000;
+                    font-family:  Archivo;
+                    font-size: 11px;
+                    
+                }
+            }
+           
+        }
+      
+        .image{
+            
+            width: 700px;
+        
+           
+            background-image: url(/img/barbearia.svg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-position-x: -20px;
+            background-position-y: -40px;
+            
+        }
+
+
+     
+    }
+
+
+    .textAcess{
+        margin-top: 10rem;
+        margin-bottom: 10rem;
+        width:100%;
+        display: flex;
+        justify-content: space-between;
+    
+
+        .imageCorte{
+            
+            width: 700px;
+            height: 500px;
+           
+            background-image: url(/img/corte.svg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-size: contain;
+            background-position-x: 50px;
+            background-position-y: -50px;
+            
+        }
+
+        .welcome{
+            display: flex;
+            flex-direction: column;
+            background-color: #eecffa75;
+            box-shadow: -9px 5px 14px rgba(0, 0, 0, 0.15);
+            padding-top: 20px;
+            padding-bottom:20px;
+            border-radius: 10px;
+            margin-left: 2rem;
+            margin-right: 2rem;
+            margin-top: 2rem;
+            width: 36rem;
+            
+            h1{
+                color: #000000;
+                text-align: center;
+                font-family:  Rubik;
+                font-weight: 500;
+            }
+        }
+    
+    }
+
+    .promotional{
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        margin-left: 5rem;
+        margin-right: 4rem;
+        margin-top: 3rem;
+        
+        &.cardPay{
+            margin-left: 4.5rem;
+
+            .payment{
+                margin-top: -1rem;
+            }
+        }
+
+        .payment{
+            display: flex;
+            margin-top: 1rem;
+            width: 500px;
+           
+            p{
+                color: #000000;
+                text-align: center;
+                font-family:  Rubik;
+                font-size: 17px;
+                font-weight: 500;
+        }
+
+        span{
+            margin-left: 1.3rem;
+            color: #000000;
+            text-align: center;
+            font-family:  Rubik;
+            font-size: 17px;
+            font-weight: 500;
+        }
+
+        
+        
+        }
+        
+    }
+
+}
+
+
+.planTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:  Roboto;
+}
