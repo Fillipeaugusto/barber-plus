@@ -17,7 +17,7 @@ export default function PricingCards() {
                                 <li className={styles.pricingFeaturesItem}>Custom domains</li>
                                 <li className={styles.pricingFeaturesItem}>Sleeps after 30 mins of inactivity</li>
                             </ul>
-                            <span className={styles.pricingPrice}>R$ 199,90</span>
+                            <span className={styles.pricingPrice}>R$ 99,90</span>
                             <a href="#/" className={styles.pricingButton}>Assinar</a>
                         </div>
 
@@ -31,7 +31,7 @@ export default function PricingCards() {
                                 <li className={styles.pricingFeaturesItem}>Multiple workers for more powerful apps</li>
                                 <li className={styles.pricingFeaturesItem}>Multiple workers for more powerful apps</li>
                             </ul>
-                            <span className={styles.pricingPrice}>$150</span>
+                            <span className={styles.pricingPrice}>R$ 250.00</span>
                             <a href="#/" className={`${styles.pricingButton} ${styles.isFeatured}`}>Assinar</a>
                         </div>
 
@@ -48,10 +48,19 @@ export default function PricingCards() {
                                 <li className={styles.pricingFeaturesItem}>Simple horizontal scalability</li>
                                 <li className={styles.pricingFeaturesItem}>Simple horizontal scalability</li>
                             </ul>
-                            <span className={styles.pricingPrice}>R$400</span>
+                            <span className={styles.pricingPrice}>R$ 400.00</span>
                             <a href="#/" className={styles.pricingButton}>Assinar</a>
                         </div>
 
+
+                    </div>
+                    <div className={styles.cardFooter}>
+                        <small>Todos os nossos planos são de renovação anual
+                        O Barber + não faz a renovação automática dos planos,
+                        ao chegar 10 dias antes da finalização do plano você
+                        receberá um e-mail nosso para que seja feita a renovação
+
+                        </small>
                     </div>
                 </div>
             </div>

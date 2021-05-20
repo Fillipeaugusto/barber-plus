@@ -12,6 +12,7 @@ export default function Home() {
         <title>Barber +</title>
       </Head>
       <Header />
+
       <div className={styles.cardImg} />
 
       <div className={styles.main}>
@@ -52,7 +53,7 @@ export default function Home() {
                 <img src="/img/percent-icon.svg" alt="" />
 
                 <div className={styles.payment}>
-                  <span>Opções de plano apartir de R$ 199,90</span>
+                  <span>Opções de plano apartir de R$ 99,90</span>
                 </div>
 
               </div>
@@ -71,10 +72,12 @@ export default function Home() {
 
       </div>
       <div className={styles.planTitle}>
-        <h1 >Confira aqui nossos planos</h1>
+        <h1 >Confira todos nossos planos oferecidos</h1>
+      </div>
+      <div className={styles.cardContainer}>
+        <PricingCards />
       </div>
 
-      <PricingCards />
     </div>
   )
 }

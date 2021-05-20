@@ -10,10 +10,13 @@
     
     
 }
-
+.cardContainer{
+    background-color: rgba(235, 235, 235, 0.199);
+}
 
 .main{
-
+    background: (235, 235, 235, 0.199);
+    margin-top:-100px;
     span{
         color: #100BFA;
     }
@@ -25,10 +28,10 @@
         width:100%;
         display: flex;
         justify-content: space-between;
-     
+        
         
         .text{
-
+            
             margin-left: 2rem;
             margin-right: 2rem;
             margin-top: 7rem;
@@ -101,7 +104,7 @@
         .welcome{
             display: flex;
             flex-direction: column;
-            background-color: #eecffa75;
+            background-color: #faf7cf75;
             box-shadow: -9px 5px 14px rgba(0, 0, 0, 0.15);
             padding-top: 20px;
             padding-bottom:20px;
