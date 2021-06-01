@@ -10,7 +10,7 @@ export default function Landing() {
                             <div className="col-lg-12">
                                 <nav className="navbar navbar-expand-lg">
                                     <a className="navbar-brand" href="index.html">
-                                        <img src="assets/images/logo.svg" alt="Logo" />
+                                        <img src="#" alt="Logo" />
                                     </a>
                                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                         <span className="toggler-icon"></span>
@@ -20,24 +20,20 @@ export default function Landing() {
 
                                     <div className="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                                         <ul id="nav" className="navbar-nav ml-auto">
-                                            <li className="nav-item active">
-                                                <a className="page-scroll" href="#home">Home</a>
+
+                                            <li className="nav-item">
+                                                <a className="page-scroll" href="#mais">Saiba mais</a>
                                             </li>
                                             <li className="nav-item">
-                                                <a className="page-scroll" href="#features">Sobre</a>
+                                                <a className="page-scroll" href="#sobre">Sobre</a>
                                             </li>
                                             <li className="nav-item">
-                                                <a className="page-scroll" href="#about">About</a>
-                                            </li>
-                                            <li className="nav-item">
-                                                <a className="page-scroll" href="#facts">Why</a>
+                                                <a className="page-scroll" href="#experiencia">Experiência</a>
                                             </li>
                                             <li className="nav-item">
                                                 <a className="page-scroll" href="#pricing">Preços</a>
                                             </li>
-                                            <li className="nav-item">
-                                                <a className="page-scroll" href="#blog">Blog</a>
-                                            </li>
+
                                         </ul>
                                     </div>
 
@@ -81,19 +77,19 @@ export default function Landing() {
                         <div className="col-lg-12">
                             <div className="brand-logo d-flex align-items-center justify-content-center justify-content-md-between">
                                 <div className="single-logo mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
-                                    <img src="assets/images/brand-1.png" alt="brand" />
+                                    <img src="#" alt="marcas" />
                                 </div>
                                 <div className="single-logo mt-30 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.2s">
-                                    <img src="assets/images/brand-2.png" alt="brand" />
+                                    <img src="#" alt="marcas" />
                                 </div>
                                 <div className="single-logo mt-30 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
-                                    <img src="assets/images/brand-3.png" alt="brand" />
+                                    <img src="#" alt="marcas" />
                                 </div>
                                 <div className="single-logo mt-30 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.4s">
-                                    <img src="assets/images/brand-4.png" alt="brand" />
+                                    <img src="#" alt="marcas" />
                                 </div>
                                 <div className="single-logo mt-30 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
-                                    <img src="assets/images/brand-5.png" alt="brand" />
+                                    <img src="#" alt="marcas" />
                                 </div>
                             </div>
                         </div>
@@ -103,7 +99,7 @@ export default function Landing() {
 
 
 
-            <section id="features" className="services-area pt-120">
+            <section id="mais" className="services-area pt-120">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-lg-10">
@@ -123,8 +119,8 @@ export default function Landing() {
                                 </div>
                                 <div className="services-content mt-30">
                                     <h4 className="services-title"><a href="#">Simples</a></h4>
-                                    <p className="text">Lorem ipsum dolor sit amet,consetetur sadipscing elitr, seddiam nonu eirmod tempor invidunt labore.</p>
-                                    <a className="more" href="#">Learn More <i className="lni-chevron-right"></i></a>
+                                    <p className="text">Cada detalhe do nosso sistema foi cuidadosamente pensado, para que fosse possível o acesso a todos
+                                    os tipos de clientes.</p>
                                 </div>
                             </div>
                         </div>
@@ -137,8 +133,8 @@ export default function Landing() {
                                 </div>
                                 <div className="services-content mt-30">
                                     <h4 className="services-title"><a href="#">Rápido</a></h4>
-                                    <p className="text">Lorem ipsum dolor sit amet,consetetur sadipscing elitr, seddiam nonu eirmod tempor invidunt labore.</p>
-                                    <a className="more" href="#">Learn More <i className="lni-chevron-right"></i></a>
+                                    <p className="text">Com o Barber + você acha um local para fazer a sua barba ou corte de cabelo em segundos.</p>
+
                                 </div>
                             </div>
                         </div>
@@ -151,8 +147,8 @@ export default function Landing() {
                                 </div>
                                 <div className="services-content mt-30">
                                     <h4 className="services-title"><a href="#">Prático</a></h4>
-                                    <p className="text">Lorem ipsum dolor sit amet,consetetur sadipscing elitr, seddiam nonu eirmod tempor invidunt labore.</p>
-                                    <a className="more" href="#">Learn More <i className="lni-chevron-right"></i></a>
+                                    <p className="text">A praticidade está em nosso lema, quando estiver viajando e precisar de algum local para se manter na moda, o Barber + está aqui para te ajudar.</p>
+
                                 </div>
                             </div>
                         </div>
@@ -161,17 +157,22 @@ export default function Landing() {
             </section>
 
 
-            <section id="about" className="about-area pt-70">
+            <section id="sobre" className="about-area pt-70">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="about-content mt-50 wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0.5s">
                                 <div className="section-title">
                                     <div className="line"></div>
-                                    <h3 className="title">Quick & Easy <span>to Use Bootstrap Template</span></h3>
+                                    <h3 className="title">De qualquer lugar  <span>a qualquer hora</span></h3>
                                 </div>
-                                <p className="text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, seiam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing.</p>
-                                <a href="#" className="main-btn">Try it Free</a>
+                                <p className="text">Com o Barber + você terá disponível barbearias em todo o Brasil,e com um simples
+                                click você poderá ver todas as informações sobre qualquer barbearia, verificar avaliações, endereços
+                                e telefones de contato das barbearias cadastradas em nosso sistema.</p>
+                                <p className="text">O nosso foco é a praticidade, já imaginou perder aquele compromisso por não conseguir
+                                fazer a barba ou cortar o seu cabelo a tempo, crie já a sua conta e tenha liberdade de cortar o cabelo e fazer
+                                sua barba mesmo quando estiver com pouco tempo.</p>
+                                <a href="#" className="main-btn">Cadastre-se</a>
                             </div>
                         </div>
                         <div className="col-lg-6">
@@ -186,33 +187,6 @@ export default function Landing() {
                 </div>
             </section>
 
-
-            <section className="about-area pt-70">
-                <div className="about-shape-2">
-                    <img src="assets/images/about-shape-2.svg" alt="shape" />
-                </div>
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-6 order-lg-last">
-                            <div className="about-content mt-50 wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0.5s">
-                                <div className="section-title">
-                                    <div className="line"></div>
-                                    <h3 className="title">Modern design <span> with Essential Features</span></h3>
-                                </div>
-                                <p className="text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, seiam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing.</p>
-                                <a href="#" className="main-btn">Try it Free</a>
-                            </div>
-                        </div>
-                        <div className="col-lg-6 order-lg-first">
-                            <div className="about-image text-center mt-50 wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="0.5s">
-                                <img src="assets/images/about2.svg" alt="about" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-
             <section className="about-area pt-70">
                 <div className="container">
                     <div className="row">
@@ -220,10 +194,10 @@ export default function Landing() {
                             <div className="about-content mt-50 wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0.5s">
                                 <div className="section-title">
                                     <div className="line"></div>
-                                    <h3 className="title"><span>Crafted for</span> SaaS, App and Software Landing Page</h3>
+                                    <h3 className="title"><span>Feito</span> especialmente para você</h3>
                                 </div>
                                 <p className="text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, seiam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing.</p>
-                                <a href="#" className="main-btn">Try it Free</a>
+                                <a href="#" className="main-btn">Experimente já</a>
                             </div>
                         </div>
                         <div className="col-lg-6">
@@ -239,70 +213,14 @@ export default function Landing() {
             </section>
 
 
-            <section id="facts" className="video-counter pt-70">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-6">
-                            <div className="video-content mt-50 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
-                                <img className="dots" src="assets/images/dots.svg" alt="dots" />
-                                <div className="video-wrapper">
-                                    <div className="video-image">
-                                        <img src="assets/images/video.png" alt="video" />
-                                    </div>
-                                    <div className="video-icon">
-                                        <a href="https://www.youtube.com/watch?v=r44RKWyfcFw" className="video-popup"><i className="lni-play"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-6">
-                            <div className="counter-wrapper mt-50 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
-                                <div className="counter-content">
-                                    <div className="section-title">
-                                        <div className="line"></div>
-                                        <h3 className="title">Cool facts <span> this about app</span></h3>
-                                    </div>
-                                    <p className="text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, seiam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-                                </div>
-                                <div className="row no-gutters">
-                                    <div className="col-4">
-                                        <div className="single-counter counter-color-1 d-flex align-items-center justify-content-center">
-                                            <div className="counter-items text-center">
-                                                <span className="count"><span className="counter">125</span>K</span>
-                                                <p className="text">Downloads</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-4">
-                                        <div className="single-counter counter-color-2 d-flex align-items-center justify-content-center">
-                                            <div className="counter-items text-center">
-                                                <span className="count"><span className="counter">87</span>K</span>
-                                                <p className="text">Active Users</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-4">
-                                        <div className="single-counter counter-color-3 d-flex align-items-center justify-content-center">
-                                            <div className="counter-items text-center">
-                                                <span className="count"><span className="counter">4.8</span></span>
-                                                <p className="text">User Rating</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
 
-            <section id="testimonial" className="testimonial-area pt-120">
+            <section id="experiencia" className="testimonial-area pt-120">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-lg-5">
                             <div className="section-title text-center pb-40">
                                 <div className="line m-auto"></div>
-                                <h3 className="title">Users sharing<span> their experience</span></h3>
+                                <h3 className="title">Experiência <span> de quem já usou o nosso sistema</span></h3>
                             </div>
                         </div>
                     </div>
@@ -333,8 +251,8 @@ export default function Landing() {
                                         <img className="author" src="assets/images/author-1.png" alt="author" />
                                     </div>
                                     <div className="author-content media-body">
-                                        <h6 className="holder-name">Jenny Deo</h6>
-                                        <p className="text">CEO, SpaceX</p>
+                                        <h6 className="holder-name">Teste 1</h6>
+                                        <p className="text">Rio de janeiro</p>
                                     </div>
                                 </div>
                             </div>
@@ -364,8 +282,8 @@ export default function Landing() {
                                         <img className="author" src="assets/images/author-2.png" alt="author" />
                                     </div>
                                     <div className="author-content media-body">
-                                        <h6 className="holder-name">Marjin Otte</h6>
-                                        <p className="text">UX Specialist, Yoast</p>
+                                        <h6 className="holder-name">Teste 2</h6>
+                                        <p className="text">São paulo</p>
                                     </div>
                                 </div>
                             </div>
@@ -395,8 +313,8 @@ export default function Landing() {
                                         <img className="author" src="assets/images/author-3.png" alt="author" />
                                     </div>
                                     <div className="author-content media-body">
-                                        <h6 className="holder-name">David Smith</h6>
-                                        <p className="text">CTO, Alphabet</p>
+                                        <h6 className="holder-name">Teste 3</h6>
+                                        <p className="text">Brasília-df</p>
                                     </div>
                                 </div>
                             </div>
@@ -433,9 +351,9 @@ export default function Landing() {
                             <div className="col-lg-4 col-md-6 col-sm-8">
                                 <div className="footer-about mt-50 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                                     <a className="logo" href="#">
-                                        <img src="assets/images/logo.svg" alt="logo" />
+                                        <img src="#" alt="logo" />
                                     </a>
-                                    <p className="text">Lorem ipsum dolor sit amet consetetur sadipscing elitr, sederfs diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</p>
+                                    <p className="text">Barber + um jeito diferente de fazer a barba</p>
                                     <ul className="social">
                                         <li><a href="#"><i className="lni-facebook-filled"></i></a></li>
                                         <li><a href="#"><i className="lni-twitter-filled"></i></a></li>
@@ -444,44 +362,17 @@ export default function Landing() {
                                     </ul>
                                 </div>
                             </div>
-                            <div className="col-lg-5 col-md-7 col-sm-7">
-                                <div className="footer-link d-flex mt-50 justify-content-md-between">
-                                    <div className="link-wrapper wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
-                                        <div className="footer-title">
-                                            <h4 className="title">Quick Link</h4>
-                                        </div>
-                                        <ul className="link">
-                                            <li><a href="#">Road Map</a></li>
-                                            <li><a href="#">Privacy Policy</a></li>
-                                            <li><a href="#">Refund Policy</a></li>
-                                            <li><a href="#">Terms of Service</a></li>
-                                            <li><a href="#">Pricing</a></li>
-                                        </ul>
-                                    </div>
-                                    <div className="link-wrapper wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
-                                        <div className="footer-title">
-                                            <h4 className="title">Resources</h4>
-                                        </div>
-                                        <ul className="link">
-                                            <li><a href="#">Home</a></li>
-                                            <li><a href="#">Page</a></li>
-                                            <li><a href="#">Portfolio</a></li>
-                                            <li><a href="#">Blog</a></li>
-                                            <li><a href="#">Contact</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
+
                             <div className="col-lg-3 col-md-5 col-sm-5">
                                 <div className="footer-contact mt-50 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
                                     <div className="footer-title">
-                                        <h4 className="title">Contact Us</h4>
+                                        <h4 className="title">Nosso contato</h4>
                                     </div>
                                     <ul className="contact">
                                         <li>(61) 1234-5679</li>
                                         <li>info@gmail.com</li>
-                                        <li>www.yourweb.com</li>
-                                        <li>123 Stree New York City , United <br /> States Of America 750.</li>
+
+                                        <li>Brasília-DF.</li>
                                     </ul>
                                 </div>
                             </div>

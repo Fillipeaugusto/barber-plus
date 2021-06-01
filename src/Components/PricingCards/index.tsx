@@ -25,11 +25,8 @@ export default function PricingCards() {
                                 <img src="https://s28.postimg.cc/ju5bnc3x9/plane.png" alt="" className={styles.pricingImg} />
                                 <h2 className={styles.pricingHeader}>Prata</h2>
                                 <ul className={styles.pricingFeatures}>
-                                    <li className={styles.pricingFeaturesItem}>Never sleeps</li>
-                                    <li className={styles.pricingFeaturesItem}>Multiple workers for more powerful apps</li>
-                                    <li className={styles.pricingFeaturesItem}>Multiple workers for more powerful apps</li>
-                                    <li className={styles.pricingFeaturesItem}>Multiple workers for more powerful apps</li>
-                                    <li className={styles.pricingFeaturesItem}>Multiple workers for more powerful apps</li>
+                                    <li className={styles.pricingFeaturesItem}>ACESSO Á 200 BARBEARIAS</li>
+
                                 </ul>
                                 <span className={styles.pricingPrice}>R$ 250.00</span>
                                 <a href="#/" className={`${styles.pricingButton} ${styles.isFeatured}`}>Assinar</a>
@@ -52,11 +49,12 @@ export default function PricingCards() {
 
                         </div>
                         <div className={styles.cardFooter}>
-                            <small>Todos os nossos planos são de renovação anual
-                            o Barber + não faz a renovação automática dos planos,
-                            ao chegar 10 dias antes da finalização do plano você
-                            receberá um e-mail nosso para que seja feita a renovação,
-                            caso a renovação não seja feita o plano será cancelado.
+                            <small>
+                                Todos os nossos planos são de renovação anual
+                                o Barber + não faz a renovação automática dos planos,
+                                ao chegar 10 dias antes da finalização do plano você
+                                receberá um e-mail nosso para que seja feita a renovação,
+                                caso a renovação não seja feita o plano será cancelado.
 
                         </small>
                         </div>
