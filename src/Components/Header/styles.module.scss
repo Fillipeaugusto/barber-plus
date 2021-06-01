@@ -19,5 +19,23 @@
         margin-left: auto;
         text-transform: capitalize;
     }
+
+    .loginButton{
+        background-color: rgb(22, 22, 22);
+        width: 120px;
+        height:50px;
+        border-radius: 7px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        
+        a{
+            text-decoration: none;
+            color: #fff;
+            font-family: Rubik;
+            font-size:20px;
+        }
+    }
 }
 

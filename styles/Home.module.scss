@@ -94,7 +94,7 @@
            
             background-image: url(/img/corte.svg);
             background-repeat: no-repeat;
-            background-size: 100%;
+        
             background-size: contain;
             background-position-x: 50px;
             background-position-y: -50px;
@@ -124,6 +124,7 @@
     
     }
 
+  
     .promotional{
         display: flex;
         align-items: center;
@@ -177,3 +178,62 @@
     justify-content: center;
     font-family:  Roboto;
 }
+
+
+@media (max-width:1112px){
+     .imageCorte,
+     .image{
+       display: none;
+    }
+
+    .textAcess{
+       margin-left: -40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+       
+   }
+
+
+   @media (max-width:1112px){
+      
+   .textContainer{
+       display: flex;
+       flex-direction:column;
+       align-items: center;
+       justify-content:center;
+
+       .text{ 
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 7rem;
+        width: 36rem;
+        
+        h1{
+            color: #000000;
+            text-align: center;
+            font-family:  Rubik;
+            font-weight: 500;
+        }
+
+       
+        
+        .conditions{
+            width:40px;
+            height:10px;
+            display: inline;
+           
+            span{
+                color: #000000;
+                font-family:  Archivo;
+                font-size: 11px;
+                
+            }
+        }
+       
+    }
+   } 
+   }
